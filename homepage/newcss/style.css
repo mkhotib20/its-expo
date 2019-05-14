@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+	font-family: "Open Sans";
+}
+section{
+	color: white;
+	padding: 40px;
+}
+.main p{
+	color: white!important;
+}
+.carousel-item {
+    height: 150vh;
+    min-height: 768px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar{
+	background-color: rgba(0,0,0,0.4) !important;
+}
+.nav-item a{
+	font-size: 13px;
+	color: rgba(255,255,255,1) !important;
+}
+
+.sponsor-text{
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+footer{
+	padding: 30px;
+	color: white;
+}
+.title{
+	font-weight: bold;
+}
+
+@media only screen and (max-device-width: 480px){
+	.title{
+	font-weight: bold;
+	margin-top: 18px;
+}
+}
+.sec-img{
+	height: 200px;
+}
+.sec-cpt{
+	font-size: 13px;	
+	}
+	/*PC Only*/
+@media(min-width: 992px){
+	
+	.nav-item{
+		margin-left: 70px;
+	}
+	.nav-link:hover{
+		margin-top: 9px;
+		padding: 0px;
+		border-bottom: 4px solid purple;
+	}
+
+	/*Background content*/
+	.event{
+		background-image: url('../images/bg_event.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 470px;
+	}
+	.wahana{
+		background-image: url('../images/bg_wahana.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 470px;
+	}
+	.kompetisi{
+		background-image: url('../images/bg_kompetisi.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 470px;
+	}
+	.sponsor{
+		background-image: url('../images/bg_sponsor.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 470px;
+	}
+	footer{
+		padding-top: 70px;
+		background-image: url('../images/bg_footer.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 360px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.text{
+		width: 50%;
+		font-size: 15px;
+		margin-top: 20px;
+	}
+}
+
+/*MObile*/
+@media(max-width: 992px){
+	.event{
+		background-image: url('../images/bg_event.png');
+		background-repeat: no-repeat;
+
+		height: 100%;
+	}
+	.wahana{
+		background-image: url('../images/bg_wahana.png');
+		background-repeat: no-repeat;
+
+		height: 100%;
+	}
+	.kompetisi{
+		background-image: url('../images/bg_kompetisi.png');
+		background-repeat: no-repeat;
+
+		height: 100%;
+	}
+	footer{
+		background-image: url('../images/bg_footer.png');
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		height: 100%;
+	}
+	@media only screen and (max-device-width: 768px){
+		@media only screen and (min-device-width: 480px){
+		footer{
+		background-image: url('../images/bg_footer.png');
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 900px;
+    	padding-left: 10px;
+    	}
+    	.sponsor{
+    		width: 900px;
+    	}
+    	.event{
+		background-image: url('../images/bg_event.png');
+		background-repeat: no-repeat;
+		width: 840px;
+		height: 100%;
+		}
+		.wahana{
+			background-image: url('../images/bg_wahana.png');
+			background-repeat: no-repeat;
+			width: 840px;
+			height: 100%;
+		}
+		.kompetisi{
+			background-image: url('../images/bg_kompetisi.png');
+			background-repeat: no-repeat;
+			width: 840px;
+	}
+	}
+}
